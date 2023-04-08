@@ -1,0 +1,96 @@
+* {
+	font-size: 62.5%;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Poppins", sans-serif;
+	background-color: #f8f8f8;
+}
+
+header {
+	width: 45rem;
+	height: 5rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 2rem 2rem 0 2rem;
+}
+
+h1 {
+	font-size: 3rem;
+	color: #00b66c;
+	margin-top: 1rem;
+}
+
+h3 {
+	font-size: 1.6rem;
+	color: #282828;
+	padding-bottom: 1.2rem;
+}
+
+.container {
+	width: 100%;
+	height: 15rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.input_number {
+	display: flex;
+	align-items: center;
+}
+
+select,
+option {
+	font-size: 1.4rem;
+	margin-right: 0.8rem;
+	height: 2.5rem;
+}
+
+input {
+	width: 20rem;
+	height: 2.5rem;
+	padding: 1rem;
+	font-size: 1.4rem;
+}
+
+#error {
+	height: 1.8rem;
+	font-size: 1.3rem;
+	color: #f21616;
+}
+
+button {
+	height: 3rem;
+	margin: 1rem;
+	padding: 0 1rem;
+	font-size: 1.6rem;
+	text-align: center;
+	background-color: #00b66c;
+	color: #ffffff;
+	border: none;
+	cursor: pointer;
+	border-radius: 1rem;
+}
+
+button:hover {
+	opacity: 0.8;
+}
+
+a {
+	height: 2.5rem;
+	font-size: 1.6rem;
+}

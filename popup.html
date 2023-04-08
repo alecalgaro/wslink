@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="author" content="Alejandro Calgaro" />
+		<meta
+			name="description"
+			content="Extensión de navegador para generar link de Whatsapp a partir de un número ingresado."
+		/>
+		<meta name="keywords" content="Whatsapp, link" />
+
+		<!-- Google fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap"
+			rel="stylesheet"
+		/>
+
+		<link rel="stylesheet" href="popup.css" />
+
+		<title>WSLink</title>
+	</head>
+	<body>
+		<header>
+			<h1>WSLink</h1>
+			<h3>Ingresa un número y genera el link de Whatsapp</h3>
+		</header>
+
+		<main class="container">
+			<form>
+				<div class="input_number">
+					<select name="code" id="code">
+						<option value="+54">🇦🇷 +54</option>
+					</select>
+					<input type="text" placeholder="Número sin 0 ni 15" id="phone" pattern="\x2b[0-9]+" />
+				</div>
+				<p id="error"></p>
+				<button id="btn">Generar link</button>
+			</form>
+			<a href="" target="_blank" id="link"></a>
+		</main>
+
+		<script src="popup.js"></script>
+	</body>
+</html>

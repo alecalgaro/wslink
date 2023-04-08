@@ -1,0 +1,13 @@
+{
+	"manifest_version": 3,
+	"name": "WSLink",
+	"version": "1.0.0",
+	"description": "Extensión de navegador para generar link de Whatsapp a partir de un número ingresado.",
+	"icons": {
+		"64": "icon64.png",
+		"128": "icon128.png"
+	},
+	"action": {
+		"default_popup": "popup.html"
+	}
+}
